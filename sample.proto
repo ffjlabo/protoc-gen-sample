@@ -1,0 +1,13 @@
+syntax = "proto3";
+option go_package = "pb/sample";
+
+package sample;
+message SimpleMessage {
+    uint64 id = 1;
+    bytes blob = 4; 
+}
+
+message SimpleMessage2 {
+    uint64 id = 1;
+    bytes blob = 4; 
+}
